@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- file: main_conversion.xml -->
+<!-- author: Yolanda Alonso Barbero -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tx_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dip"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textAllCaps="true"
+        android:textColor="@color/colorLavender"
+        android:textSize="35dip"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dip"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rbtn_to_celsius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/label_to_celsius"
+            android:textColor="@color/colorLavender"
+            android:textSize="18dip"/>
+        <RadioButton
+            android:id="@+id/rbtn_to_fahrenheit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/label_to_fahrenheit"
+            android:textColor="@color/colorLavender"
+            android:textSize="18dip"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edit_tx_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:inputType="numberSigned"
+        android:maxLines="1"
+        android:textColor="@color/colorLavender" />
+
+    <TextView
+        android:id="@+id/tx_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dip"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dip"
+        android:textStyle="bold"/>
+
+</LinearLayout>
