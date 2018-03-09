@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- file: strings.xml -->
+<!-- author: Yolanda Alonso Barbero -->
+<resources>
+    <string name="app_name">HelloStudents</string>
+    <string name="semester">Spring 2018 Semester</string>
+    <string name="course">CS211D</string>
+    <string name="student">Yolanda Alonso Barbero</string>
+</resources>
