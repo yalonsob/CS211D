@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- file: strings.xml -->
+<!-- author: Yolanda Alonso Barbero -->
+<resources>
+    <string name="app_name">TemperatureConversion</string>
+    <string name="app_title">Temperature Conversion</string>
+    <string name="label_to_celsius">
+        Fahrenheit to Celsius(°F -> °C)
+    </string>
+    <string name="label_to_fahrenheit">
+        Celsius to Fahrenheit(°C -> °F)
+    </string>
+</resources>
