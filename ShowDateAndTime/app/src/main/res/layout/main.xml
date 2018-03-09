@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- file: main.xml -->
+<!-- author: Yolanda Alonso Barbero -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_show_date"
+        android:layout_width="140dip"
+        android:layout_height="70dip"
+        android:layout_marginBottom="20dip"
+        android:text="@string/show_date"
+        android:onClick="updateDateOrTime"/>
+
+    <TextView
+        android:id="@+id/tx_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_show_time"
+        android:layout_width="140dip"
+        android:layout_height="70dip"
+        android:layout_margin="20dip"
+        android:text="@string/show_time"
+        android:onClick="updateDateOrTime"/>
+
+    <TextView
+        android:id="@+id/tx_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

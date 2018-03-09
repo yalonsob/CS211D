@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- file: strings.xml -->
+<!-- author: Yolanda Alonso Barbero -->
+<resources>
+    <string name="app_name">ShowDateAndTime</string>
+    <string name="show_date">Show date</string>
+    <string name="show_time">Show time</string>
+</resources>
