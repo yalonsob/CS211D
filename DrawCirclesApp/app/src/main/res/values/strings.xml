@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DrawCirclesApp</string>
+    <string name="draw">Draw</string>
+    <string name="clear">Clear</string>
+</resources>
